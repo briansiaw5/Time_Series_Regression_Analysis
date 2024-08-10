@@ -1,6 +1,6 @@
 # Time Series Regression Analysis
 
-This repository contains the code and results of a Time Series Regression Analysis conducted to model and predict [insert the main objective or target variable]. The analysis leverages various statistical and machine learning techniques to understand the temporal dynamics and make accurate predictions.
+This repository contains the code and results of a Time Series Regression Analysis conducted to model and predict the unit sales for thousands of items sold at different Favorita stores. The analysis leverages various statistical and machine learning techniques to understand the temporal dynamics and make accurate predictions.
 
 ## Table of Contents
 
@@ -27,6 +27,7 @@ The analysis includes:
 
 The datasets used for this analysis  are all in .csv format and were obtained from 3 sources: a database, OneDrive and a GitHub repository. 
 It includes train.csv, training data,test.csv
+
 The datasets include:
 - train.csv
 - training data
@@ -45,8 +46,12 @@ The datasets include:
 - Time-based feature extraction
 
 ### 2. Model Selection
-- [List the models used, e.g., Linear Regression, ARIMA, XGBoost]
-- Justification for model choice
+- Linear Regression
+- Baseline Model
+- Support Vector Regression
+- Random Forest Regression
+- Arima
+- Sarima
 
 ### 3. Model Training and Evaluation
 - Training process
@@ -59,7 +64,7 @@ The datasets include:
 
 ## Results
 
-The results of the analysis showed that [briefly summarize the key findings or model performance]. The best-performing model was [mention the best model] with a [mention key performance metric].
+The best-performing model was Linear Regression with an RMSE of 7.4 (the lowest amongst all the models).
 
 ## Dependencies
 
@@ -82,11 +87,11 @@ pip install -r requirements.txt
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/briansiaw5/Time_Series_Regression_Analysis.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repo-name
+   cd briansiaw5
    ```
 3. Run the notebook:
    ```bash
