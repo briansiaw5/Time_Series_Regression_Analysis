@@ -1,8 +1,3 @@
-# Time_Series_Regression_Analysis
-I can help you craft a README for your GitHub repository. Here’s a suggested structure:
-
----
-
 # Time Series Regression Analysis
 
 This repository contains the code and results of a Time Series Regression Analysis conducted to model and predict [insert the main objective or target variable]. The analysis leverages various statistical and machine learning techniques to understand the temporal dynamics and make accurate predictions.
@@ -20,7 +15,7 @@ This repository contains the code and results of a Time Series Regression Analys
 
 ## Introduction
 
-This project aims to perform time series regression analysis on [describe the dataset or time series data]. The primary objective is to [mention the goal, such as predicting future values, understanding trends, etc.].
+This project aims to perform a time series regression analysis on training data, test data, stores data, oil price data and a few others The primary objective is to build a model that can accurately predict the unit sales for lots of items sold at different Favorita stores.
 
 The analysis includes:
 - Data preprocessing and feature engineering
@@ -30,7 +25,17 @@ The analysis includes:
 
 ## Dataset
 
-The dataset used for this analysis is [describe the dataset, including the source if applicable]. It includes [briefly describe the features and target variable, e.g., time-related features, numerical variables, etc.].
+The datasets used for this analysis  are all in .csv format and were obtained from 3 sources: a database, OneDrive and a GitHub repository. 
+It includes train.csv, training data,test.csv
+The datasets include:
+- train.csv
+- training data
+- test.csv
+- transaction.csv
+- sample_submission.csv
+- stores.csv
+- oil.csv
+- holidays_events.csv
 
 ## Methodology
 
@@ -65,7 +70,7 @@ To run the code, you need to have the following installed:
 - numpy
 - scikit-learn
 - matplotlib
-- [Any other dependencies]
+  
 
 You can install the required packages using:
 
